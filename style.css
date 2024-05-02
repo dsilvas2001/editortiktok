@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  border: 1 solid;
+  height: 50vh;
+  width: 100vw;
+  background-color: rgb(223, 220, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 350px;
+  height: 285px;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  .titlecard {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px 5px 12px;
+    height: 40px;
+    background-color: #373232;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    button {
+      border-radius: 50%;
+      svg {
+        width: 10px;
+        height: 10px;
+        path,
+        rect,
+        polygon {
+          fill: #ffffff;
+        }
+      }
+    }
+  }
+  .minimize {
+    background-color: #ffbe2e;
+  }
+  .maximize {
+    background-color: #2aca44;
+  }
+  .close {
+    background-color: #ff5f5a;
+  }
+}
+
+.card .cppcode {
+  padding-top: 10px;
+  #pre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    color: #bafff8;
+  }
+
+  .curlies {
+    color: #ff0000;
+  }
+
+  .sc {
+    color: #e600ff;
+  }
+
+  .rounds {
+    color: #ffffff;
+  }
+
+  .operator {
+    color: #ffff00;
+  }
+
+  .s1 {
+    color: #22ff00;
+  }
+
+  .s2 {
+    color: #4281ff;
+  }
+
+  .s3 {
+    color: #ff4284;
+  }
+
+  .s4 {
+    color: #ffae00;
+  }
+
+  .s5 {
+    color: #ffffff;
+  }
+
+  .s6 {
+    color: #ffff00;
+  }
+}
